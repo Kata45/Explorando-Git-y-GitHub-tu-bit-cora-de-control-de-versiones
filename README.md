@@ -206,35 +206,6 @@ En **2018**, **Microsoft** adquirió GitHub por **7.5 mil millones de dólares**
 > 💡 *Git gestiona el código, GitHub conecta personas.*
 
 ---
-
-<div align="center">
-<h1>Usar Juntos</h1>
-<h1>🔶 Git y Github 🐈‍⬛</h1>
-</div>
-
-A continuación, el flujo de trabajo básico entre tu computadora (Git) y la nube (GitHub):
-
-1. Crea un repositorio de Git vacío en la carpeta actual, generando la carpeta oculta .git para rastrear cambios.
-
-```bash
-git --init
-```
-
-<p align="center">
-<img src="Captura/init.jpeg" width="400">
-</p>
-
-2. Crea un repositorio de Git vacío en la carpeta actual, generando la carpeta oculta .git para rastrear cambios.
-
-```bash
-git --init
-```
-
-<p align="center">
-<img src="Captura/init.jpeg" width="400">
-</p>
-
----
 <h2>🌐 Webgrafía</h2>
 
 * [Aprende GIT ahora!](https://youtu.be/VdGzPZ31ts8?si=2-DKtLq-nqcsWavS)
