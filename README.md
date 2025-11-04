@@ -77,6 +77,34 @@ Se mostrará el paso a paso realizado en la instalación y configuración de Git
 git --version
 ```
 
+<p align="center">
+<img src="Captura/version.jpeg" width="400">
+</p>
+
+```bash
+git config --global user.name "Kata"
+```
+
+<p align="center">
+<img src="Captura/version.jpeg" width="400">
+</p>
+
+```bash
+git config --global user.email kata@gmail.com
+```
+
+<p align="center">
+<img src="Captura/version.jpeg" width="400">
+</p>
+
+```bash
+git config --global core.editor "code --wait"
+```
+
+<p align="center">
+<img src="Captura/version.jpeg" width="400">
+</p>
+
 ---
 
 <div align="center">
