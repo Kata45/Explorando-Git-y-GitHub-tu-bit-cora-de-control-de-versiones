@@ -72,7 +72,8 @@ A continuación, se muestran los pasos para instalar **Git** en los diferentes s
 
 Se mostrará el paso a paso realizado en la instalación y configuración de Git:
 
-### 1️⃣ Inicializar un repositorio local
+1. Este comando muestra la versión actual de Git instalada en tu sistema. Sirve para verificar que Git está correctamente instalado y operativo.
+
 ```bash
 git --version
 ```
@@ -81,28 +82,49 @@ git --version
 <img src="Captura/version.jpeg" width="400">
 </p>
 
+
+2. Configura el nombre de usuario global de Git. Git lo utilizará para identificarte en los commits que hagas en todos tus repositorios del sistema.
+
 ```bash
 git config --global user.name "Kata"
 ```
 
 <p align="center">
-<img src="Captura/version.jpeg" width="400">
+<img src="Captura/user.name.jpeg" width="400">
 </p>
+
+3. Define el correo electrónico global que Git usará para registrar los commits que realices. Se combina con user.name para identificarte como autor en el historial de cada proyecto.
 
 ```bash
 git config --global user.email kata@gmail.com
 ```
 
 <p align="center">
-<img src="Captura/version.jpeg" width="400">
+<img src="Captura/user.email.jpeg" width="400">
 </p>
+
+4. Establece Visual Studio Code (VS Code) como el editor por defecto de Git. Git abrirá este editor cuando necesites escribir mensajes de commit, merge o editar archivos de configuración.
 
 ```bash
 git config --global core.editor "code --wait"
 ```
 
 <p align="center">
-<img src="Captura/version.jpeg" width="400">
+<img src="Captura/core.editor.jpeg" width="400">
+</p>
+
+5. Controla la conversión automática de saltos de línea (EOL) entre sistemas operativos. En Windows, Git convierte los finales de línea LF a CRLF al hacer checkout. En Linux/macOS, Git mantiene LF (más común en entornos Unix).
+
+```bash
+git config --global core.autocrlf true
+```
+
+```bash
+git config --global core.autocrlf input
+```
+
+<p align="center">
+<img src="Captura/core.autocrlf.jpeg" width="400">
 </p>
 
 ---
@@ -192,7 +214,34 @@ En **2018**, **Microsoft** adquirió GitHub por **7.5 mil millones de dólares**
 
 A continuación, el flujo de trabajo básico entre tu computadora (Git) y la nube (GitHub):
 
-### 1️⃣ Inicializar un repositorio local
+1. Crea un repositorio de Git vacío en la carpeta actual, generando la carpeta oculta .git para rastrear cambios.
+
 ```bash
-git init
+git --init
 ```
+
+<p align="center">
+<img src="Captura/init.jpeg" width="400">
+</p>
+
+2. Crea un repositorio de Git vacío en la carpeta actual, generando la carpeta oculta .git para rastrear cambios.
+
+```bash
+git --init
+```
+
+<p align="center">
+<img src="Captura/init.jpeg" width="400">
+</p>
+
+---
+<h2>🌐 Webgrafía</h2>
+
+* [Aprende GIT ahora!](https://youtu.be/VdGzPZ31ts8?si=2-DKtLq-nqcsWavS)
+* [¿Qué es Git y cómo funciona?](https://youtu.be/jGehuhFhtnE?si=f7IEDdsyIJvnSUYu)
+* [Git](https://git-scm.com/)
+* [GitHub](https://kinsta.com/blog/what-is-github/)
+  
+---
+##### © **2025** Creado por *Kata* — Todos los derechos reservados.
+---
